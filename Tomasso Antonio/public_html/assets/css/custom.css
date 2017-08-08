@@ -1,0 +1,210 @@
+/* Customized Bootstrap
+ * File:	 custom.css
+ * Author:   Matthew Testerman
+ * Created:  11-06-16
+ * Modified: 11-06-16
+ * Description:
+ * Makes custom changes to the web page
+*/
+
+@font-face {
+    font-family: "Test";
+    src: url(Komoda.otf) format("truetype");
+}
+
+/*Navigation Bar*/
+body {
+	
+	font-family: 'Open Sans';
+	color: #FFF;
+	height: 100%;
+
+	}
+	
+main{
+
+position: relative;
+}
+
+#myModal {
+
+background-color: rgba(74,204,179,0.85);
+}
+
+#footer {
+
+
+
+}
+	
+
+#navBarContainer {
+	height: 60px;
+}
+	
+
+
+#navBar {
+	background-color: rgba(10,42,96,0.5);
+
+margin-bottom: 0px;
+border: none;
+/*border-bottom: solid 4px #0A2A60; */
+
+}
+
+
+#brandLogo {
+	color: #FFF;
+}
+#currentContent {
+	/*padding-top: 100px;*/	
+	
+}
+
+#navButton
+{
+	border-radius: 0px;
+	border: solid 2px #0A2A60; /* Color for border is here! OINK!  */
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 10px;	
+	margin-bottom: 5px;		
+
+}
+
+.socialMediaLink 
+{
+	 	color: #FFFFFF!important;
+		font-size: 35px;
+}
+.socialMediaLink:hover
+{
+	 	color: #00FFCB!important;
+		font-size: 35px;
+}
+
+.socialMediaLinkMobile
+{
+	 	color: #FFFFFF!important;
+		font-size: 35px;
+}
+.socialMediaLinkMobile:hover
+{
+	 	color: #00FFCB !important;
+		font-size: 35px;
+}
+
+
+
+h3 {
+	color:#FFFFFF;
+}
+
+#mainLogo {
+	margin: 0px;
+	margin-top: 110px;
+	
+}
+
+#main {
+background-color: rgba(161,189,199, 0.25);	
+	padding-bottom: 70px;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+.navBarOverwrite {
+	background-color: transparent;
+	
+}
+#featureImage{
+	/*background-image:url('../images/TA-Background-1920x1080.png'); 
+    background-size: contain;
+     background-repeat: no-repeat;
+     background-position: left top;*/
+
+}
+
+.special-button
+{
+
+	border: solid 2px #0A2A60;
+	color: #0A2A60;
+	padding: 2px;
+	padding-left: 10px;
+	padding-right: 10px;	
+	font-size: 35px;
+	
+}
+
+
+#button-signup 
+{
+		border: solid 1px #0A2A60;
+
+	color: #0A2A60;
+	margin: 0px;
+	margin-top: 100px;
+	padding: 0px;
+	font-size: 20px;
+	width: 100px;
+	
+}
+
+
+
+
+.button-signup > a {
+height: 100%;
+width: 100%;	
+}
+.special-button:link { text-decoration:none;}
+.special-button:vistied { text-decoration:none; color:#0A2A60}
+.special-button:active { text-decoration:none; color:#0A2A60}
+.special-button:hover { text-decoration:none; color:#FFF}
+
+
+.nav.navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+
+.btn-default {
+border-radius: 0px; border: solid 2px #FFF; color: #FFF; background-color: transparent; margin-top: 14px; margin-right: 14px; font-size: 20px;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    color: #42CDB3;
+    background-color: #FFFFFF;
+    border-color: #FFF; /*set the color you want here*/
+}
+
+#buyNow {
+border-radius: 0px; border: solid 2px #072862; color: #072862; background-color: transparent; margin-top: 14px; margin-right: 14px; font-size: 20px;
+}
+#buyNow:hover, #buyNow:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+    color: #FFF;
+    background-color: #072862;
+    border-color: #072862; /*set the color you want here*/
+}
+
+.spacer {
+	
+	
+	padding-top: 15px;
+	
+}
+/*.navbar-static-bottom .navbar-fixed-bottom {
+    position: relative;
+  border-width: 1px 1px 0;
+}*/
+/*Footer*/
